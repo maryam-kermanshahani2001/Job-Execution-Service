@@ -1,0 +1,30 @@
+cloud:
+  arvan:
+    credentials:
+      access_key: 033a8e2b-f000-4100-83e3-cab8dd47595c
+      secret_key: 052af62e61c9347a188e034ef4f210c6b3294713
+    region:
+      static: default
+    stack:
+      uto: false
+
+application:
+  bucket:
+    name: mycloudcomputing-course-bucket
+
+spring:
+  datasource:
+    url: jdbc:postgresql://gina.iran.liara.ir:34360/postgres
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: Fzq6WMS6RAGu211LKlU9qm56
+  servlet:
+    multipart:
+      max-file-size: 500KB
+      max-request-size: 500KB
+  rabbitmq:
+    addresses: amqps://xwemfyap:pNG8ZB3XX3SLVwf-XvwrYjPCoyK3Bn3G@woodpecker.rmq.cloudamqp.com/xwemfyap
+
+#spring:
+server:
+  port: 9090

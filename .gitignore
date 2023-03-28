@@ -1,0 +1,10 @@
+/.idea/
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../:\Users\Parham\Desktop\CCProject\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+*.iml
+/target/
