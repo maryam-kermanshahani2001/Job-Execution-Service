@@ -1,0 +1,30 @@
+cloud:
+  arvan:
+    credentials:
+      access_key: acc
+      secret_key: sec
+    region:
+      static: default
+    stack:
+      uto: false
+
+application:
+  bucket:
+    name:  buckname
+
+spring:
+  datasource:
+    url: serv
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: pa
+  servlet:
+    multipart:
+      max-file-size: 500KB
+      max-request-size: 500KB
+  rabbitmq:
+    addresses: amqps
+
+#spring:
+server:
+  port: 9090

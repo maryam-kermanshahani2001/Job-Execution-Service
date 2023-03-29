@@ -1,0 +1,23 @@
+cloud:
+  arvan:
+    credentials:
+      access_key: acc
+      secret_key: pa
+    region:
+      static: default
+    stack:
+      uto: false
+
+application:
+  bucket:
+    name: buc
+
+spring:
+
+  servlet:
+    multipart:
+      max-file-size: 500KB
+      max-request-size: 500KB
+#spring:
+server:
+  port: 9090
