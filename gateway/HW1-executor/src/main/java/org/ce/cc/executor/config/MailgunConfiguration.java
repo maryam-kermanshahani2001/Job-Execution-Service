@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MailgunConfiguration {
-    private final String private_api_key = "5af37b20f2bd06f385bd27e642b37e92-7764770b-0142fc02";
+    private final String private_api_key = "lablab";
 
     @Bean
     public MailgunMessagesApi mailgunMessagesApi() {

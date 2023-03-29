@@ -33,7 +33,7 @@ build/
 .vscode/
 
 # app
-./HW1-core/src/main/resources/application.yml
-./HW1-executor/src/main/resources/application.yml
-./HW1-gateway/src/main/resources/application.yml
-./HW1-notifier/src/main/resources/application.yml
+D:\Classes\cloud\HW1\gateway\HW1-core\src\main\resources\application.yml
+D:\Classes\cloud\HW1\gateway\HW1-executor\src\main\resources\application.yml
+D:\Classes\cloud\HW1\gateway\HW1-gateway\src\main\resources\application.yml
+D:\Classes\cloud\HW1\gateway\HW1-notifier\src\main\resources\application.yml
