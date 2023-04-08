@@ -22,7 +22,6 @@ public class MailgunService {
     public MessageResponse sendSimpleMessage(CodeXExecutionResponseDto codexResponse, String receiverEmail) {
 
         Message message = Message.builder()
-//                .from("Cloud Computing Project<maryam.kermanshahani6079@sandbox4af31400583f4507bef084bd0e2c0aab.mailgun.org>")
                 .from("maryam.kermanshahani6079@gmail.com")
                 .to(receiverEmail)
                 .subject("Job Execution Service")
