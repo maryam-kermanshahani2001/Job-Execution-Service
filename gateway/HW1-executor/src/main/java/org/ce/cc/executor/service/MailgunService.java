@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class MailgunService {
     private final MailgunMessagesApi mailgunMessagesApi;
-    private final String domain_name = "sandbox4af31400583f4507bef084bd0e2c0aab.mailgun.org";
+    private final String domain_name = "fdssgsdf";
 
 
 //    public MessageResponse sendSimpleMessage(ResponseEntity<String> codexResponse, String receiverEmail) {
